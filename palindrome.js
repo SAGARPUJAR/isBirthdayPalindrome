@@ -154,6 +154,8 @@ function clickhandler(e) {
       var [ctr, nextdate] = getNextPalindromeDate(date);
       outputResult.innerText = `Oops Sorry Your Birthdate is Not Palindrome, The next palindrome Date is ${nextdate.day}-${nextdate.month}-${nextdate.year} and you Missed it By ${ctr} Days.`;
     }
+  } else {
+    alert("Please Select The Input");
   }
 }
 
